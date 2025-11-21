@@ -17,7 +17,7 @@ export default function Home() {
     {
       title: "Fishing Store",
       description: "A mockup e-commerce site for fishing gear built with Next.js and Tailwind CSS. This project was made for an exam project, and focuses on testing using msw, jest, and react-testing-library.",
-      link: "https://fishing-store.vercel.app",
+      link: "https://tackleboxed2-0.vercel.app",
       tags: ["MSW", "Jest", "RTL", "Next.js", "TailwindCSS"]
     }
   ];
