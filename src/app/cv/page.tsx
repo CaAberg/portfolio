@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Carl Åberg - CV & Resume",
     description: "Professional experience, skills, and education of Carl Åberg, Full Stack Developer.",
-    url: "https://your-domain.com/cv",
+    url: "https://portfolio-caaberg.vercel.app/cv",
   },
 };
 

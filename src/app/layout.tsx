@@ -17,19 +17,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://your-domain.com'), // Update with your actual domain
+  metadataBase: new URL('https://portfolio-caaberg.vercel.app'),
   title: {
     default: "Carl Åberg | Full Stack Developer",
     template: "%s | Carl Åberg"
   },
   description: "Full Stack Developer specializing in React, Next.js, and TypeScript. Former chef turned developer, creating efficient and user-friendly web applications.",
   keywords: ["Carl Åberg", "Full Stack Developer", "React", "Next.js", "TypeScript", "Web Developer", "Portfolio", "Front-end Developer"],
-  authors: [{ name: "Carl Åberg", url: "https://your-domain.com" }],
+  authors: [{ name: "Carl Åberg", url: "https://portfolio-caaberg.vercel.app" }],
   creator: "Carl Åberg",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-domain.com",
+    url: "https://portfolio-caaberg.vercel.app",
     siteName: "Carl Åberg Portfolio",
     title: "Carl Åberg | Full Stack Developer",
     description: "Full Stack Developer specializing in React, Next.js, and TypeScript. Former chef turned developer, creating efficient and user-friendly web applications.",
