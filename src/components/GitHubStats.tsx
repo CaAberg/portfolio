@@ -7,48 +7,6 @@ interface GitHubStatsProps {
 export default function GitHubStats({ username = "CaAberg" }: GitHubStatsProps) {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* GitHub Stats Card */}
-        <div className="bg-white dark:bg-zinc-800 rounded-lg border border-zinc-200 dark:border-zinc-700 p-4 overflow-hidden">
-          <Image
-            src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=transparent&hide_border=true&title_color=18181b&text_color=52525b&icon_color=52525b&bg_color=ffffff00&dark_theme=true`}
-            alt="GitHub Stats"
-            width={495}
-            height={195}
-            className="w-full h-auto dark:hidden"
-            unoptimized
-          />
-          <Image
-            src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=transparent&hide_border=true&title_color=fafafa&text_color=a1a1aa&icon_color=a1a1aa&bg_color=ffffff00`}
-            alt="GitHub Stats"
-            width={495}
-            height={195}
-            className="w-full h-auto hidden dark:block"
-            unoptimized
-          />
-        </div>
-
-        {/* Top Languages */}
-        <div className="bg-white dark:bg-zinc-800 rounded-lg border border-zinc-200 dark:border-zinc-700 p-4 overflow-hidden">
-          <Image
-            src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=transparent&hide_border=true&title_color=18181b&text_color=52525b&bg_color=ffffff00`}
-            alt="Top Languages"
-            width={495}
-            height={195}
-            className="w-full h-auto dark:hidden"
-            unoptimized
-          />
-          <Image
-            src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=transparent&hide_border=true&title_color=fafafa&text_color=a1a1aa&bg_color=ffffff00`}
-            alt="Top Languages"
-            width={495}
-            height={195}
-            className="w-full h-auto hidden dark:block"
-            unoptimized
-          />
-        </div>
-      </div>
-
       {/* GitHub Streak */}
       <div className="bg-white dark:bg-zinc-800 rounded-lg border border-zinc-200 dark:border-zinc-700 p-4 overflow-hidden">
         <Image

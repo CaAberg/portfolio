@@ -47,7 +47,6 @@ export const metadata: Metadata = {
     title: "Carl Åberg | Full Stack Developer",
     description: "Full Stack Developer specializing in React, Next.js, and TypeScript. Former chef turned developer.",
     images: ["/opengraph-image"],
-    creator: "@yourtwitterhandle", // Update with your Twitter handle if you have one
   },
   robots: {
     index: true,
