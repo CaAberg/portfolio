@@ -6,11 +6,11 @@ interface GitHubStatsProps {
 
 export default function GitHubStats({ username = "CaAberg" }: GitHubStatsProps) {
   return (
-    <div className="space-y-6">
+    <div>
       {/* GitHub Streak */}
-      <div className="bg-white dark:bg-zinc-800 rounded-lg border border-zinc-200 dark:border-zinc-700 p-4 overflow-hidden">
+      <div className="bg-white dark:bg-zinc-800 rounded-lg border border-zinc-200 dark:border-zinc-700 mb-8 overflow-hidden">
         <Image
-          src={`https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=transparent&hide_border=true&stroke=52525b&ring=18181b&fire=18181b&currStreakNum=18181b&sideNums=18181b&currStreakLabel=52525b&sideLabels=52525b&dates=52525b&background=ffffff00`}
+          src={`https://github-readme-streak-stats-two-wine.vercel.app?user=caAberg&theme=dark&hide_border=true&mode=light`}
           alt="GitHub Streak"
           width={800}
           height={200}
@@ -18,7 +18,7 @@ export default function GitHubStats({ username = "CaAberg" }: GitHubStatsProps) 
           unoptimized
         />
         <Image
-          src={`https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=transparent&hide_border=true&stroke=a1a1aa&ring=fafafa&fire=fafafa&currStreakNum=fafafa&sideNums=fafafa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa&background=ffffff00`}
+          src={`https://github-readme-streak-stats-two-wine.vercel.app?user=caAberg&theme=dark&hide_border=true&mode=dark`}
           alt="GitHub Streak"
           width={800}
           height={200}
